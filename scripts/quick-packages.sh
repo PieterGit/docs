@@ -20,7 +20,7 @@ else
    echo "NPM version $NPM already installed"
 fi
 # Node comes with npm installed so you should have a version of npm. However, npm gets updated more frequently than Node does, so you'll want to make sure it's the latest version.
-npm install npm@latest -g
+sudo npm install npm@latest -g
 
 sudo apt-get install -y git python python-dev python-software-properties python-numpy python-pip watchdog strace tcpdump screen acpid vim locate jq ntpdate && \
 sudo pip install -U openaps && \
